@@ -4,8 +4,8 @@
   "description": "desc",
   "main": "./lib/index.js",
   "scripts": {
-    "build": "rm -rd lib/ & tsc --project tsconfig.json",
-    "start": "rm -rd lib/ & tsc --project tsconfig.json && node lib/index.js",
+    "build": "rm -rd lib/ |& tsc --project tsconfig.json",
+    "start": "npm run build && node lib/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "benjGam",
