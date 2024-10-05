@@ -1,6 +1,7 @@
 src/
 docs/
 test/
+coverage/
 node_modules/
 .gitignore
 .prettierrc
