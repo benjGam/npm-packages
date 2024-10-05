@@ -1,8 +1,10 @@
 src/
 docs/
-node_modules
+test/
+node_modules/
 .gitignore
-tsconfig.json
-package-lock.json
 .prettierrc
 .eslintrc.js
+jest.config.js
+tsconfig.json
+package-lock.json
