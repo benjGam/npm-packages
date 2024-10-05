@@ -1,6 +1,7 @@
 src/
 docs/
 test/
+.github/
 coverage/
 node_modules/
 .gitignore
